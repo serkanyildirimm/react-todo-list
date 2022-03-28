@@ -1,0 +1,68 @@
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+   
+    font-family: sans-serif;
+    background-color: antiquewhite;
+  }
+  header h1{
+    margin: 5rem 0;
+    font-size: 3rem;
+    color:grey;
+  }
+header,
+form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+input{
+ 
+  border-radius: 5px;
+}
+form{
+  position: relative;
+}
+
+form .search{
+  display: flex;
+}
+
+.todo-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.todo{
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+}
+.todo li{
+  width: 100%;
+  padding: 0 0.5rem;
+}
+button{
+  background-color: antiquewhite;
+  border-radius: 5PX;
+  padding: 10px;
+}
+.complete-btn{
+  background-color: antiquewhite;
+}
+.delete-btn{
+  background-color: antiquewhite;
+}
+.completed{
+  opacity: 0.5;
+  text-decoration:line-through;
+  color: green;
+}
+select{
+  border-radius: 5px;
+}
